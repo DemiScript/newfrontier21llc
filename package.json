@@ -1,0 +1,29 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "Website for New Frontier 21 LLC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DemiScript/newfrontier21llc.git"
+  },
+  "keywords": [
+    "education",
+    "learning",
+    "school",
+    "culture",
+    "audit"
+  ],
+  "author": "DemiScript",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DemiScript/newfrontier21llc/issues"
+  },
+  "homepage": "https://github.com/DemiScript/newfrontier21llc#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}

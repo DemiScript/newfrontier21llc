@@ -32,6 +32,22 @@
     max-width: 200px; /* Maximum width of the logo */
 }
 
+.nav-link-custom {
+    font-weight: 600;
+    color: #1A2637;   
+}
+
+.nav-link-custom:hover {
+    color: #FFCF00;
+}
+
+.nav-item {
+    margin-right: 2em;
+    
+}
+.center{
+    text-align: center;
+}
 .hero-section {
     background-image: url(/images/sample.png);
     background-position: top;
@@ -39,6 +55,7 @@
 }
 .icons1{
     height: 5rem;
+    
 }
 .img-cont{
     height: 25rem;
@@ -46,6 +63,7 @@
     background-position: center;
     background-size: cover;
 }
+
 /* .img-container {
     position: relative;
     background-position: center;

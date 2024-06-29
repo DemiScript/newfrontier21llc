@@ -1,0 +1,132 @@
+/*
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800
+
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+    // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 700
+
+.josefin-sans-<uniquifier> {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+#DCDADD White
+#F4F5F5 Off White
+#FFCF00 Yellow
+#1A2637 Dark Blue 
+  */
+
+.logo {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+}
+
+.nav-link-custom {
+    font-weight: 600;
+    color: #1A2637;   
+}
+
+.nav-link-custom:hover {
+    color: #FFCF00;
+}
+
+.nav-item {
+    margin-right: 2em;
+    
+}
+.center{
+    text-align: center;
+}
+.img-container {
+    background-image: url(/images/sample.png);
+    height: 30rem;
+    position: relative;
+    background-position: top;
+    background-size: cover;
+}
+.icons1{
+    height: 5rem;
+}
+.icons2{
+    height: 12em;
+}
+.img-cont{
+    height: 25rem;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+.heading-1,h2.display-4{
+    font-weight: 600;
+}
+.lead{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+.btn-light {
+    background-color: #f4f5f5c9;
+    border: none;
+    color: #1A2637;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    border-radius: 1px;
+    padding: 0 40px;
+    font-size: medium;
+}
+
+.btn-dark {
+    background-color: #1a2637c9;
+    border: none;
+    color: #F4F5F5;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    border-radius: 1px;
+    padding: 10px 40px;
+    font-size: medium;
+}
+
+.text-warning {
+    color: #FFCF00;
+    font-family: "Josefin Sans", sans-serif;
+    letter-spacing: .1em;
+    font-size: 1.8rem;
+}
+
+.btn-warning {
+    background-color: #FFCF00;
+    border: none;
+    color: #1A2637;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    border-radius: 1px;
+    padding: 10px 40px;
+    font-size: medium;
+}
+
+section.bg-dark-blue{
+    background-color: #1A2637;
+    /* color: #F4F5F5; */
+}
+.btn-link{
+    text-decoration: none;
+}
+li.tab{
+    font-family: "Josefin Sans", sans-serif;
+}
+.text-yellow {
+    color: #FFCF00;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 3.5rem;
+}

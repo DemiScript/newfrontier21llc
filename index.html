@@ -204,7 +204,7 @@
             </div>
         </div>
     </section>
-    <section class="text-light text-center bg-dark-blue py-5">
+    <section class="text-light text-center bg-dark-blue py-3">
         <div class="row justify-content-center flex-row">
             <div class="col-md-6">
                 <h2 class="display-4 pt-5">Unlock Your <span class="text-yellow">Potential</span></h2>
@@ -217,7 +217,7 @@
             <button type="button" class="btn btn-warning btn-lg">Get Started</button>
         </div>
     </section>
-    <section class="container-lg">
+    <section class="container-lg py-5">
         <div class="row justify-content-center flex-row">
             <div class="col-md-6">
                 <h2 class="display-4 pt-5 text-center">Contact Us</h2>
@@ -227,16 +227,23 @@
             </div>
         </div>
         <form>
-            <div class="mb-3">
-                <label for="name" class="form-label">Name</label>
-                <input type="name" class="form-control" id="name" placeholder="John Doe">
+            <div class="row mb-3">
+                <div class="col-md-4">
+                    <label for="name" class="form-label mb-0">Name</label>
+                    <input type="name" class="form-control" id="name" placeholder="John Doe">
+                </div>
+
+                <div class="col-md-4">
+                    <label for="email" class="form-label mb-0">Email Address</label>
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                </div>
+                <div class="col-md-4">
+                    <label for="phone" class="form-label mb-0">Phone Number</label>
+                    <input type="text" class="form-control" id="phone" placeholder="(123) 456-7890">
+                </div>
             </div>
             <div class="mb-3">
-                <label for="email" class="form-label">Email Address</label>
-                <input type="email" class="form-control" id="email" placeholder="name@example.com">
-            </div>
-            <div class="mb-3">
-                <label for="inquiry-type" class="form-label">Inquiry Type</label>
+                <label for="inquiry-type" class="form-label mb-0">Inquiry Type</label>
                 <select class="form-select" aria-label="Select reason for contact" id="inquiry-type">
                     <option selected>Select from the options below</option>
                     <option value="1">PLC At Work®</option>
@@ -245,17 +252,67 @@
                 </select>
             </div>
             <div class="mb-3">
-                <label for="message" class="form-label">Message</label>
+                <label for="message" class="form-label mb-0">Message</label>
                 <textarea class="form-control" aria-label="Text area" id="message"></textarea>
             </div>
             <div class="mb-3 form-info">
               <div id="NameHelp" class="form-text">By submitting this form, you consent to New Frontier 21, LLC storing and processing your personal information to respond to your inquiry. For more information, please review our Privacy Policy.</div>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+
+            <button type="submit" class="btn btn-warning-lg-rounded btn-lg mt-3">Submit</button>
         </form>
     </section>
-    
-    
+    <section class="footer bg-dark-blue text-light pt-5">
+        <footer>
+            <div class="footer-main d-flex justify-content-around">
+                <div class="">
+                    <a class="navbar-brand" href="index.html">
+                        <img class="logo-footer" src="images/logo-white.png" alt="New Frontier 21 Logo" />
+                    </a>
+                    <ul class="footer-socials list-inline mt-3">
+                        <li class="heading">Follow Us</li>
+                        <li class="list-inline-item">
+                            <a href="#"><img src="images/linkedin-icon-white.png" alt="LinkedIn Icon" class="social-icon"></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#"><img src="images/twitter-icon-white.png" alt="X Icon" class="social-icon"></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#"><img src="images/facebook-icon-white.png" alt="Facebook Icon" class="social-icon"></a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="d-flex justify-content-end">
+                    <ul class="footer-links">
+                        <li class="heading">Solutions</li>
+                        <li class="item">Professional Workshops</li>
+                        <li class="item">School Culture Audits</li>
+                    </ul>
+                    <ul class="footer-links">
+                        <li class="heading">Company</li>
+                        <li class="item">Home</li>
+                        <li class="item">About Us</li>
+                        <li class="item">Services</li>
+                        <li class="item">Contact Us</li>
+                    </ul>
+                    <ul class="footer-links">
+                        <li class="heading">Resources</li>
+                        <li class="item">Books</li>
+                        <li class="item">Events</li>
+                        <li class="item">Privacy Policy</li>
+                        <li class="item">Terms of Service</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container-fluid bg-yellow text-center">
+                <p class="footer-copyright text-blue m-0">
+                    Copyright &copy 2024 New Frontier 21, LLC <br>
+                    Website by <span class="text-decoration-underline">Demi Matos</span>
+                </p>
+            </div>    
+        </footer>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>

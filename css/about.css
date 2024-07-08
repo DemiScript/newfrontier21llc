@@ -26,5 +26,42 @@
 #1A2637 Dark Blue 
   */
 body {
+    font-family: "Josefin Sans", sans-serif;
     background-color: #1A2637;
+}
+
+.img-container {
+    background-image: url(/images/about-image.png);
+    height: 30rem;
+    position: relative;
+    background-position: top;
+    background-size: cover;
+}
+h2.h2 {
+    font-family: "Open Sans", sans-serif;
+}
+p>span,h2>span {
+    color: #FFCF00;
+}
+img.icons1 {
+    width: 7rem;
+}
+.p-open-sans {
+    font-family: "Open Sans", sans-serif;
+}
+
+img.headshot {
+    width: 20rem;
+    border-radius: 30px;
+}
+h3.name {
+    font-family: "Open Sans", sans-serif;
+    font-size: 2rem;
+    letter-spacing: -2px;
+    font-weight: 700;
+}
+
+h3.h6 {
+    font-style: italic;
+    font-weight: 200;
 }

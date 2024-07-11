@@ -223,3 +223,12 @@ ul>.item {
     width: 24px; /* Adjust size as needed */
     height: auto;
 }
+p>a {
+    color: inherit;
+}
+section.footer {
+    position: relative;
+    -moz-box-shadow: 0 -5px 6px rgba(0, 0, 0, 0.11);
+    -webkit-box-shadow: 0 -5px 6px rgba(0,0,0,0.5);
+    box-shadow: 0 -5px 6px rgba(0, 0, 0, 0.151);
+}

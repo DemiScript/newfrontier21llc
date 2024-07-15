@@ -10,6 +10,8 @@ body {
     background-position: top;
     background-size: cover;
 }
+
+/* 
 h2.h2 {
     font-family: "Open Sans", sans-serif;
 }
@@ -63,6 +65,6 @@ img.icons3 {
     font-family: "Josefin Sans", sans-serif;
     font-weight: 600;
     padding: 10px 40px;
-    /* font-size: medium; */
+    /* font-size: medium; 
     box-shadow: 0 0 10px 0 #0d131be7;
-}
+} */

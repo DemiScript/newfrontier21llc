@@ -2,7 +2,12 @@ body {
     font-family: "Josefin Sans", sans-serif;
     background-color: #1A2637;
 }
-
+/* .alata-regular {
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+   */
 .img-container {
     background-image: url(../images/about/about-image.png);
     height: 30rem;
@@ -10,61 +15,63 @@ body {
     background-position: top;
     background-size: cover;
 }
+div.square-icon {
+    background-color: #F4F5F5;
+    border-radius: 2px;
+    border: px solid #F4F5F5;
+    height: 15px;
+    width: 15px;
+    position: relative;
+    display: inline-block;
 
-/* 
-h2.h2 {
-    font-family: "Open Sans", sans-serif;
 }
-p>span,h2>span {
-    color: #FFCF00;
-}
-img.icons1 {
-    width: 7rem;
-    height: auto;
-}
-.p-open-sans {
-    font-family: "Open Sans", sans-serif;
-    line-height: 1.5rem;
-    
-}
-
-img.headshot {
-    height: 25rem;
-    border-radius: 30px;
-}
-h3.name {
-    font-family: "Open Sans", sans-serif;
-    font-size: 2rem;
-    letter-spacing: -1px;
-    font-weight: 800;
-    
-}
-
-h3.h6 {
-    font-style: italic;
+p.lead {
     font-weight: 200;
-    font-size: 1.25rem;
 }
-
-h3>span {
+div.NO {
     color: #FFCF00;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Alata", sans-serif;
     font-weight: 700;
     font-size: 2rem;
     text-transform: none;
+    display: block;
+}
+span.symbol {
+    font-size: 1.25rem;
+    color: #FFCF00;
+    font-family: "Alata", sans-serif;
+    font-weight: normal;
+    display: inline-block;
 }
 
-img.icons3 {
-    width: 15rem;
-    height: auto;
+.services-title {
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 300;
 }
-.btn-bluev2 {
-    background-color: #1a263700;
+h4>span {
+    font-weight: 600;
+}
+
+.desc-lead {
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.desc {
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.90rem;
+}
+
+.btn-white {
+    background-color: #ffffff;
     border: none;
-    color: #F4F5F5;
+    color: #1A2637;
     font-family: "Josefin Sans", sans-serif;
     font-weight: 600;
+    border-radius: 1px;
     padding: 10px 40px;
-    /* font-size: medium; 
-    box-shadow: 0 0 10px 0 #0d131be7;
-} */
+    font-size: medium;
+}

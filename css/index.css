@@ -36,7 +36,8 @@ html,body
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    overflow-x: hidden;
+    background: #F4F5F5; 
 }
 
 img.logo {
@@ -77,6 +78,7 @@ img.logo-footer {
 }
 .icons2{
     height: 12em;
+    border-radius: 5px;
 }
 .img-cont{
     height: 25rem;
@@ -134,12 +136,10 @@ img.logo-footer {
 
 .bg-dark-blue {
     background-color: #1A2637;
-    /* color: #F4F5F5; */
 }
 
 .bg-yellow {
     background-color: #FFCF00;
-    /* color: #F4F5F5; */
 }
 
 .btn-link {

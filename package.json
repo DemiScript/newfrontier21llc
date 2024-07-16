@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/DemiScript/newfrontier21llc#readme",
   "dependencies": {
-    "bootstrap": "^5.2.3"
+    "bootstrap": "^5.3.3"
   }
 }

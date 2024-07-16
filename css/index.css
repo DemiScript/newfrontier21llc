@@ -1,0 +1,238 @@
+/*
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800
+
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+    // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 700
+
+.josefin-sans-<uniquifier> {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+#DCDADD White
+#F4F5F5 Off White
+#FFCF00 Yellow
+#1A2637 Dark Blue 
+  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    background: #F4F5F5; 
+}
+
+img.logo {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+}
+
+img.logo-footer {
+    width: 30vh;
+    height: auto;
+}
+.nav-link-custom {
+    font-weight: 600;
+    color: #1A2637;   
+}
+
+.nav-link-custom:hover {
+    color: #FFCF00;
+}
+
+.nav-item {
+    margin-right: 2em;
+    
+}
+.center{
+    text-align: center;
+}
+.img-container {
+    background-image: url(../images/homepage/hero-image.png);
+    height: 30rem;
+    position: relative;
+    background-position: top;
+    background-size: cover;
+}
+.icons1{
+    height: 5rem;
+}
+.icons2{
+    height: 12em;
+    border-radius: 5px;
+}
+.img-cont{
+    height: 25rem;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+.heading-1,h2.display-4{
+    font-weight: 600;
+}
+.lead{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+.btn-light {
+    background-color: #f4f5f5c9;
+    border: none;
+    color: #1A2637;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    border-radius: 1px;
+    padding: 10px 40px;
+    font-size: medium;
+}
+
+.btn-dark {
+    background-color: #1a2637c9;
+    border: none;
+    color: #F4F5F5;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    border-radius: 1px;
+    padding: 10px 40px;
+    font-size: medium;
+}
+
+.text-warning {
+    color: #FFCF00;
+    font-family: "Josefin Sans", sans-serif;
+    letter-spacing: .1em;
+    font-size: 1.8rem;
+}
+
+.btn-warning {
+    background-color: #FFCF00;
+    border: none;
+    color: #1A2637;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    border-radius: 1px;
+    padding: 10px 40px;
+    font-size: medium;
+}
+
+.bg-dark-blue {
+    background-color: #1A2637;
+}
+
+.bg-yellow {
+    background-color: #FFCF00;
+}
+
+.btn-link {
+    text-decoration: none;
+}
+li.tab{
+    font-family: "Josefin Sans", sans-serif;
+}
+.text-yellow {
+    color: #FFCF00;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 3.5rem;
+}
+
+.list-group-item {
+    border-width: 0;
+}
+.form-label {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+}
+
+.form-control,.form-select {
+    background-color: #DEDEDE !important;
+}
+
+.btn-warning-lg-rounded {
+    background-color: #ffd000d3;
+    border: none;
+    color: #1A2637;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 10px 100px;
+    font-size: medium;
+    box-shadow: 0 0 10px 0 #DEDEDE;
+}
+
+ul.footer-links,ul.footer-socials {
+    list-style-type: none;
+}
+ul>.heading {
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+    font-size: large;
+}
+
+ul>.item {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    font-size: medium;
+    margin-top: 1em;
+}
+
+.customA {
+    color: inherit;
+    text-decoration: none;;
+}
+.text-blue {
+    color: #1A2637;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.footer-socials {
+    padding: 0;
+    margin: 0;
+}
+
+.footer-socials .heading {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.footer-socials .list-inline-item {
+    margin-right: 10px;
+}
+
+.footer-socials .list-inline-item a {
+    text-decoration: none;
+}
+
+.footer-socials .social-icon {
+    width: 24px; /* Adjust size as needed */
+    height: auto;
+}
+p>a {
+    color: inherit;
+}
+section.footer {
+    position: relative;
+    -moz-box-shadow: 0 -5px 6px rgba(0, 0, 0, 0.11);
+    -webkit-box-shadow: 0 -5px 6px rgba(0,0,0,0.5);
+    box-shadow: 0 -5px 6px rgba(0, 0, 0, 0.151);
+}
